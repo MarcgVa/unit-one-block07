@@ -1,12 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <script src="src/main.js"></script>
+  <link rel="stylesheet" href="css/style.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Test Page</title>
 </head>
 <body>
+  <header> 
+    <h1>Welcome to the Vault Room</h1>
+  </header>
+  <main>
+    <section class="flex-container">
+      <div>
+          <!-- Rubric required message string-->
+        <h2>You have received this message because you have been chosen to open an important vault. Here is the secret combination:</h2>
+      </div>
+      <div class="answer">
+        <!-- Rubric Combination display on HTML page instead of popup dialog-->
+        <p id="combination" type="text"></p> 
+      </div>
+    </section>
+  </main>
   
 </body>
+<script src="src/main.js"></script>
 </html>
