@@ -13,6 +13,7 @@ let comboPart1 = 0;
 let comboPart2 = 0;
 let comboPart3 = 0;
 
+//Using functions to retrieve combo parts
 function sum(a,b){
   return a + b;
 }
